@@ -1,0 +1,183 @@
+{
+  "db_name": "system_database",
+  "saved_at": 1771947673.9362485,
+  "saved_at_formatted": "2026-02-24 16:41:13",
+  "tables": {
+    "users": {
+      "columns": [
+        "id",
+        "username",
+        "password_hash",
+        "salt",
+        "email",
+        "role",
+        "is_active",
+        "failed_attempts",
+        "locked_until",
+        "created_at",
+        "last_login"
+      ],
+      "records": [
+        {
+          "id": 1,
+          "username": "krystian",
+          "password_hash": "7e8b80fe926e25d4efb42a18b8353e59fd06515ec5a08aeb03fb6e033e959c2f",
+          "salt": "aa3b96724e52b729fad3c0850a813096",
+          "email": "",
+          "role": "admin",
+          "is_active": true,
+          "failed_attempts": 0,
+          "locked_until": 0,
+          "last_login": null,
+          "last_login_formatted": null,
+          "_created_at": 1771778904.012322,
+          "_created_at_formatted": "2026-02-22 17:48:24",
+          "_modified_at": 1771778904.0123503,
+          "_modified_at_formatted": "2026-02-22 17:48:24"
+        },
+        {
+          "id": 2,
+          "username": "Michał",
+          "password_hash": "1c6e59267f2f96fb5a5815fe88c09ba0c0b5fb2015e19ed565187321d8bffec0",
+          "salt": "5cfbd4b8d8084c30a69443d46705b49c",
+          "email": "prs@gmail.com",
+          "role": "user",
+          "is_active": true,
+          "failed_attempts": 1,
+          "locked_until": 0,
+          "last_login": 1771786009.7179441,
+          "last_login_formatted": "2026-02-22 19:46:49",
+          "_created_at": 1771785978.733386,
+          "_created_at_formatted": "2026-02-22 19:46:18",
+          "_modified_at": 1771947673.934597,
+          "_modified_at_formatted": "2026-02-24 16:41:13"
+        }
+      ],
+      "auto_increment": 3,
+      "created_at": 1771777931.9588974,
+      "created_at_formatted": "2026-02-22 17:32:11",
+      "modified_at": 1771947673.9346256,
+      "record_count": 2
+    },
+    "login_history": {
+      "columns": [
+        "id",
+        "user_id",
+        "username",
+        "action",
+        "success",
+        "ip_address",
+        "timestamp"
+      ],
+      "records": [
+        {
+          "id": 1,
+          "user_id": 1,
+          "username": "krystian",
+          "action": "REGISTER",
+          "success": true,
+          "timestamp": 1771778904.0137172,
+          "timestamp_formatted": "2026-02-22 17:48:24",
+          "_created_at": 1771778904.0137563,
+          "_created_at_formatted": "2026-02-22 17:48:24",
+          "_modified_at": 1771778904.0137634,
+          "_modified_at_formatted": "2026-02-22 17:48:24"
+        },
+        {
+          "id": 2,
+          "user_id": 2,
+          "username": "Michał",
+          "action": "REGISTER",
+          "success": true,
+          "timestamp": 1771785978.7347383,
+          "timestamp_formatted": "2026-02-22 19:46:18",
+          "_created_at": 1771785978.7347934,
+          "_created_at_formatted": "2026-02-22 19:46:18",
+          "_modified_at": 1771785978.7348013,
+          "_modified_at_formatted": "2026-02-22 19:46:18"
+        },
+        {
+          "id": 3,
+          "user_id": 2,
+          "username": "Michał",
+          "action": "LOGIN_SUCCESS",
+          "success": true,
+          "timestamp": 1771786009.7210836,
+          "timestamp_formatted": "2026-02-22 19:46:49",
+          "_created_at": 1771786009.7211485,
+          "_created_at_formatted": "2026-02-22 19:46:49",
+          "_modified_at": 1771786009.7211552,
+          "_modified_at_formatted": "2026-02-22 19:46:49"
+        },
+        {
+          "id": 4,
+          "user_id": null,
+          "username": "michał",
+          "action": "LOGIN_FAILED",
+          "success": false,
+          "timestamp": 1771947651.2036548,
+          "timestamp_formatted": "2026-02-24 16:40:51",
+          "_created_at": 1771947651.2037046,
+          "_created_at_formatted": "2026-02-24 16:40:51",
+          "_modified_at": 1771947651.2037165,
+          "_modified_at_formatted": "2026-02-24 16:40:51"
+        },
+        {
+          "id": 5,
+          "user_id": 2,
+          "username": "Michał",
+          "action": "LOGIN_FAILED",
+          "success": false,
+          "timestamp": 1771947673.9361587,
+          "timestamp_formatted": "2026-02-24 16:41:13",
+          "_created_at": 1771947673.9362142,
+          "_created_at_formatted": "2026-02-24 16:41:13",
+          "_modified_at": 1771947673.9362268,
+          "_modified_at_formatted": "2026-02-24 16:41:13"
+        }
+      ],
+      "auto_increment": 6,
+      "created_at": 1771777931.9603019,
+      "created_at_formatted": "2026-02-22 17:32:11",
+      "modified_at": 1771947673.9362457,
+      "record_count": 5
+    },
+    "sessions": {
+      "columns": [
+        "id",
+        "user_id",
+        "token",
+        "created_at",
+        "expires_at",
+        "is_active"
+      ],
+      "records": [
+        {
+          "id": 1,
+          "user_id": 2,
+          "token": "ebe487cd299ae162fc87d8ad1b7730d2369f78d16ddc73ea9bdf9816de28d1dd",
+          "expires_at": 1771787809.7195363,
+          "is_active": true,
+          "_created_at": 1771786009.7195437,
+          "_created_at_formatted": "2026-02-22 19:46:49",
+          "_modified_at": 1771786009.719573,
+          "_modified_at_formatted": "2026-02-22 19:46:49"
+        }
+      ],
+      "auto_increment": 2,
+      "created_at": 1771777931.9614313,
+      "created_at_formatted": "2026-02-22 17:32:11",
+      "modified_at": 1771786009.7195835,
+      "record_count": 1
+    }
+  },
+  "stats": {
+    "total_queries": 7,
+    "total_inserts": 8,
+    "total_updates": 2,
+    "total_deletes": 0,
+    "total_time_spent": 0.014275074005126953,
+    "created_at": 1771777931.9524772,
+    "last_operation_at": 1771947673.9361496
+  }
+}
