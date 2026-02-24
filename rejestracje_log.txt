@@ -2,5 +2,6 @@
 # Utworzono: 2026-02-22 17:48:24
 # Format: ID | Nazwa | Email | Rola | Data rejestracji | Timestamp
 #================================================================================
-1 | krystian | brak | admin | 2026-02-22 17:48:24 | 1771778904.0150523
-2 | Michał | prs@gmail.com | user | 2026-02-22 19:46:18 | 1771785978.7361104
+1 | gamer | brak | admin | 2026-02-22 17:48:24 | 1771778904.0150523
+2 | cybergamer123 | prs@gmail.com | user | 2026-02-22 19:46:18 | 1771785978.7361104
+
