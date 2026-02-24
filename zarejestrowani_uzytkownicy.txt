@@ -8,7 +8,7 @@
 │  UŻYTKOWNIK #1
 ├──────────────────────────────────────────────────────────────┤
 │  ID:                  1
-│  Nazwa użytkownika:   krystian
+│  Nazwa użytkownika:   gamer
 │  Email:               Nie podano
 │  Rola:                admin
 │  Data rejestracji:    2026-02-22 17:48:24
@@ -20,11 +20,12 @@
 │  UŻYTKOWNIK #2
 ├──────────────────────────────────────────────────────────────┤
 │  ID:                  2
-│  Nazwa użytkownika:   Michał
+│  Nazwa użytkownika:   cybergamer123
 │  Email:               prs@gmail.com
 │  Rola:                user
 │  Data rejestracji:    2026-02-22 19:46:18
 │  Dzień tygodnia:      Niedziela
 │  Timestamp (Unix):    1771785978.7361104
 └──────────────────────────────────────────────────────────────┘
+
 
